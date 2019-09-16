@@ -1,0 +1,15 @@
+@mixin hover-color($color) {
+
+    &:hover,
+    &:focus {
+        color: $color;
+    }
+}
+
+@mixin hover-color-force($color) {
+
+    &:hover,
+    &:focus {
+        color: $color !important;
+    }
+}

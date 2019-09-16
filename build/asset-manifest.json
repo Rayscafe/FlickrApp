@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.926bd3b3.chunk.css",
+    "main.js": "/static/js/main.d1198d3f.chunk.js",
+    "main.js.map": "/static/js/main.d1198d3f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.bd0c86d3.chunk.css": "/static/css/2.bd0c86d3.chunk.css",
+    "static/js/2.d8a53c23.chunk.js": "/static/js/2.d8a53c23.chunk.js",
+    "static/js/2.d8a53c23.chunk.js.map": "/static/js/2.d8a53c23.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1b4265d5d2d49211ca0a599e2aac65a6.js": "/precache-manifest.1b4265d5d2d49211ca0a599e2aac65a6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.bd0c86d3.chunk.css.map": "/static/css/2.bd0c86d3.chunk.css.map",
+    "static/css/main.926bd3b3.chunk.css.map": "/static/css/main.926bd3b3.chunk.css.map",
+    "static/media/firebase.svg": "/static/media/firebase.3435e3d4.svg",
+    "static/media/frontegg-cloud.png": "/static/media/frontegg-cloud.2e41b951.png",
+    "static/media/icon-apis.svg": "/static/media/icon-apis.b50b4490.svg",
+    "static/media/icon1.svg": "/static/media/icon1.9cf6f0be.svg",
+    "static/media/icon2.svg": "/static/media/icon2.68e47e6d.svg",
+    "static/media/img1.jpg": "/static/media/img1.5aad4906.jpg",
+    "static/media/ionicons.css": "/static/media/ionicons.c037dbbc.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.c5550826.svg"
+  }
+}

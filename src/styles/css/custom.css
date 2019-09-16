@@ -1,0 +1,36 @@
+
+
+.picture_name {
+    display: flex;
+    justify-content: center;
+}
+
+
+.picture_property {
+    text-decoration: underline;
+    color:blue;
+}
+
+.picture_by {
+    color: black;
+}
+
+.Img {
+    width: 100%;
+}
+
+.picture_desc {
+    display: flex;
+    color:black;
+    
+}
+
+.dropdown {
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+/* 
+.dropdown_button {
+    margin-bottom:0px;
+    margin-top: 1px;
+} */

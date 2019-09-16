@@ -1,0 +1,119 @@
+/*
+* Slim v1.0.0 (https://themepixels.me/slim)
+* Copyright 2018 ThemePixels
+* Licensed under ThemeForest License
+*
+* ---------- TABLE OF CONTENTS ----------
+*
+* 1. GOOGLE FONTS IMPORT
+* 2. BOOTSTRAP FRAMEWORK
+* 3. TEMPLATE LAYOUT STYLES
+*    5.1  Demo
+*    5.2  Header
+*    5.3  Global
+*    5.4  Navbar
+*    5.5  Settings
+*    5.6  Mainpanel
+*    5.7  Sticky Header
+*    5.8  Footer
+*    5.9  Full Width
+*
+* 4. TEMPLATE PAGES STYLES
+*    6.1  Contacts
+*    6.2  Dashboard
+*    6.3  Dropdown
+*    6.4  Error
+*    6.5  File Manager
+*    6.6  Form Layouts
+*    6.7  Invoice
+*    6.8  Media
+*    6.9  Messages
+*    6.10 Modal
+*    6.11 Pagination
+*    6.12 Popover
+*    6.13 Pricing
+*    6.14 Profile
+*    6.15 Signin
+*    6.16 Timeline
+*    6.17 Tooltip
+*    6.18 Widgets
+*    6.19 Landing
+*
+* 5. UTILITIES / HELPER CLASSES
+*    7.1  Background
+*    7.2  Border
+*    7.3  Height
+*    7.4  Hover
+*    7.5  Margin
+*    7.6  Misc
+*    7.7  Padding
+*    7.8  Position
+*    7.9  Typography
+*    7.10 Width
+*/
+
+/* ------------------------------------------------------ */
+/* ############### 1. GOOGLE FONTS IMPORT ############### */
+/* ------------------------------------------------------ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+
+/* ------------------------------------------------------ */
+/* ############### 2. BOOTSTRAP FRAMEWORK ############### */
+/* ------------------------------------------------------ */
+@import "./bootstrap/bootstrap";
+// @import 'bootstrap/functions';
+@import "variables";
+
+/* --------------------------------------------------------- */
+/* ############### 3. TEMPLATE LAYOUT STYLES ############### */
+/* --------------------------------------------------------- */
+@import "layout/demo";
+@import "layout/header";
+@import "layout/global";
+@import "layout/navbar";
+@import "layout/settings";
+@import "layout/mainpanel";
+@import "layout/sticky-header";
+@import "layout/footer";
+@import "layout/full-width";
+
+/* -------------------------------------------------------- */
+/* ############### 4. TEMPLATE PAGES STYLES ############### */
+/* -------------------------------------------------------- */
+@import "pages/contacts";
+@import "pages/dashboard";
+@import "pages/dropdown";
+@import "pages/error";
+@import "pages/file-manager";
+@import "pages/form-layouts";
+@import "pages/invoice";
+@import "pages/media";
+@import "pages/messages";
+@import "pages/modal";
+@import "pages/pagination";
+@import "pages/popover";
+@import "pages/pricing";
+@import "pages/profile";
+@import "pages/signin";
+@import "pages/timeline";
+@import "pages/tooltip";
+@import "pages/widgets";
+@import "pages/landing";
+
+/* ------------------------------------------------------------- */
+/* ############### 5. UTILITIES / HELPER CLASSES ############### */
+/* ------------------------------------------------------------- */
+@import "util/background";
+@import "util/border";
+@import "util/height";
+@import "util/hover";
+@import "util/margin";
+@import "util/misc";
+@import "util/padding";
+@import "util/position";
+@import "util/typography";
+@import "util/width";

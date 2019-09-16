@@ -1,0 +1,274 @@
+// this style for onboardingComponent
+.selectCard {
+  border: 2px solid;
+}
+
+// this styles for Stepper forms
+
+@media only screen and (max-width: 620px) {
+  .formtabs>ul>li {
+    font-size: 10px !important;
+    padding: 5px !important;
+  }
+
+  .number {
+    margin-right: 10px !important;
+    font-size: 10px !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+
+.formtabs>ul>li {
+  display: inline-flex !important;
+  display: flex;
+  margin-right: 1em;
+  padding: 14px;
+  color: white;
+}
+
+.formtabs>ul {
+  padding-inline-start: 0px;
+}
+
+.ulStepTabs>li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.nonSelect {
+  color: #adb5bd !important;
+  cursor: pointer;
+}
+
+.current {
+  background-color: #1b84e7;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.current:hover {
+  background-color: #1570c7;
+  border-color: #146abb;
+}
+
+.selected {
+  background-color: #9dc8e2;
+  cursor: pointer;
+}
+
+.done:hover {
+  cursor: pointer;
+}
+
+.number {
+  margin-right: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #adb5bd;
+  border-radius: 50px;
+}
+
+.formStepper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.disabledSpan {
+  background: #eee;
+  color: #aaa;
+  padding: 9px 20px;
+}
+
+.enabledSpan {
+  background-color: #1b84e7;
+  color: white;
+  padding: 9px 20px;
+}
+
+.enabledSpan:hover {
+  cursor: pointer;
+}
+
+// end styles of steppers
+
+.domain {
+  display: none !important;
+}
+
+.sidebar-nav-link:hover {
+  cursor: pointer;
+  color: #1b84e7;
+}
+
+// this styles using in three components collapsing for code snippets
+
+.colOn {
+  display: flex;
+  padding: 18px 20px 18px 20px;
+  background-color: #057bf1;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.colOff {
+  display: flex;
+  padding: 18px 20px 18px 20px;
+  background-color: #ebf4fd;
+  color: #1b84e7;
+  font-weight: 500;
+  border: solid 1px #057bf1;
+}
+
+.tagP {
+  margin-bottom: 0px !important;
+}
+
+.fontIcon {
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.colContentInner {
+  border: solid 1px #057bf1;
+}
+
+// end styles
+
+// this styles for SideMenu collapsing
+
+.navColContentInner {
+  border: solid 1px #dee2e6;
+  // padding: 10px;
+}
+
+.navFontIcon {
+  font-size: 10px !important;
+  margin-top: 0.5em;
+  color: #aaa !important;
+}
+
+.navUl>li {
+  list-style: none;
+  padding: 0.4rem 2.5rem !important;
+}
+
+.activeLink {
+  background-color: #f2f4f6;
+  color: #495057;
+}
+
+.navUl {
+  padding: 0 !important;
+}
+
+.navLink {
+  color: #aaa;
+}
+
+.navLink:hover {
+  color: #057bf1;
+}
+
+// end styles for SideMenu
+
+// code-copy-section
+
+.code-box-copy {
+  position: relative !important;
+}
+
+.code-box-copy__btn {
+  opacity: 0;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  width: 36px;
+  height: 36px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 2px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.code-box-copy:hover .code-box-copy__btn {
+  opacity: 1;
+}
+
+.code-box-copy__btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.code-box-copy__btn::before {
+  display: inline-block;
+  content: " ";
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: url(https://img.icons8.com/wired/16/000000/copy.png) no-repeat 0 0;
+}
+
+.dash-headline-item-three>div {
+  padding: 0 !important;
+}
+
+// custom collapsible
+
+.Collapsible__trigger {
+  cursor: pointer;
+}
+
+// Color picker
+.css-1xnfy-ColorPicker input {
+  font-size: 11px !important;
+  -webkit-text-size-adjust: none;
+  font-weight: normal !important;
+}
+
+// side menu
+.is-open {
+  border-left: 4px solid;
+  border-image: linear-gradient(to bottom, #1b84e7, #4662d4) 1 100%;
+}
+
+.searchUser {
+  height: auto;
+}
+
+
+.select-search-box__search {
+  color: #495057 !important;
+  border: 1px solid #dee2e6 !important;
+  height: 42px !important;
+  box-shadow: none !important;
+}
+
+.select-search-box__select {
+  top: auto !important
+}
+
+.select-search-box {
+  width: 50% !important;
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.select-search-box__options {
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+}
